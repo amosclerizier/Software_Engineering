@@ -356,12 +356,6 @@ background-color: #ff8c49;
 
 }
 
-#search {
-	width: 705px;
-	margin: 0 auto;
-	margin-top: 5px;
-	overflow: auto;
-}
 
 #keyword, #keyword:active, #keyword:focus 
 {
@@ -374,12 +368,6 @@ background-color: #ff8c49;
 	font-weight: 300;
 }
 
-#searchbar {
-	width: 594px;
-	margin-right: 5px;
-	float: left;
-	overflow: auto;
-}
 
 .ui-helper-hidden-accessible {
 	display: none;
@@ -411,24 +399,6 @@ overflow: auto;
 	color: #fff;
 }
 
-.button_search 
-{
-	width: 47px;
-	height: 47px;
-	font-size: 0px;
-	float: left;
-}
-
-#button_search 
-{
-	background-image: url("../images/search.png");
-	margin-right: 5px;
-}
-
-#button_suggest
-{
-	background-image: url("../images/suggest.png");
-}
 
 /* entire container, keeps perspective */
 .flipContainer {
