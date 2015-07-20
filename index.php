@@ -33,9 +33,11 @@
 						<label for="password">Password</label>
 						<input type="password" id="password" class="input_login"></input>
 				</div>
-
 			</div>
+<p>This will be the body of the site.</p>
+
 		</div>
+
 		<?php include_once('footer.php'); ?>
 	</body>
 </html>

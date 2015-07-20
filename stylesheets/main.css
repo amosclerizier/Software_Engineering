@@ -468,6 +468,9 @@ margin-bottom: 20px;
 color: #E26D26;
 }
 
+p#chatbox {
+padding-left:800px;
+}
 #footer p {
 	width: 370px;
 margin: 0 auto;
