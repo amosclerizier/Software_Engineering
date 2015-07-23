@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <?php
 	session_start();
+
+	session_regenerate_id();
+	if(!isset($_SESSION['sess_ID']))      // if there is no valid session
+	{
+    	header("Location: index.php");
+	}
 ?>
 
 <html>
