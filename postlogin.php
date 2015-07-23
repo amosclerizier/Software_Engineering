@@ -39,7 +39,7 @@
         ]);
 
         var options = {
-          title: 'Health Buddies',
+          title: 'Graph',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
