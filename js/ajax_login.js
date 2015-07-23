@@ -33,9 +33,9 @@ $('#link_login').click(function() {
 						success : function(success) {
 							if(success == 1) {
 								$('#login').dialog("close");
-								//location.reload();
-								location.replace('http://localhost/Stock/1_code'+'/postlogin.php')
-
+								//redirect page after login
+								window.location = "http://www.dev-amos2.cloudapp.net";
+								window.location.href = "postlogin.php";
 							}
 							else {
 								$('#message_login').text("Invalid username and password!");
