@@ -1,9 +1,4 @@
 <?php
-
-// written by: Peter Zhang
-// tested by: Peter Zhang
-// debugged by: Peter Zhang
-	
 	class dbConnection {
 		private $connection; //database connection
 		private $statement; //query preparede statement
