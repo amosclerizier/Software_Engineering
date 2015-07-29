@@ -29,8 +29,8 @@
 						<input type="password" id="password" class="input_login"></input>
 				</div>
 			</div>
-<div id="siteinfo"><p>      If you’re a member of the Health Buddies  website (it’s free to join), you can track your steps using the website. Your steps are logged, shown visually and can be applied to walking routes and personal or group goals you have. Log-in now and become a member. </p></div>
-
+<div id="siteinfo"><p>      If you become a member of the Health Buddies  website (it’s free to join), you can track your steps using the website. Your steps are logged, shown visually and can be applied to walking routes and personal or group goals you have. Log-in now and become a member. </p></div>
+<div id="mainpic"><img src="images/helpfulfriend.jpg"/></div>
 		</div>
 
 		<?php include_once('footer.php'); ?>
