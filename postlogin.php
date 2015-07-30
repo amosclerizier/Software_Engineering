@@ -16,41 +16,6 @@
 		<script src="js/splashscreen.js"></script>
 		<link rel="stylesheet" href="stylesheets/splashscreen.css" type="text/css" />
 
-<!-- the script for generating the graph for the user -->
-<script type="text/javascript"
-          src="https://www.google.com/jsapi?autoload={
-            'modules':[{
-              'name':'visualization',
-              'version':'1',
-              'packages':['corechart']
-            }]
-          }"></script>
-
-    <script type="text/javascript">
-      google.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Year', 'Steps', 'Recommended Steps'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
-        ]);
-
-        var options = {
-          title: 'Graph',
-          curveType: 'function',
-          legend: { position: 'bottom' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-
-<!-- end of google script -->
 
 	</head>
 	<body>
@@ -67,7 +32,7 @@
 				</div>
 <!--	<div id="curve_chart" style="width: 900px; height: 500px"></div> -->
 <div id="graph"><img src="stepsgraph.php" /></div>
-
+<p style="color:white">Download a chart that will help you track your progress<a href="steps_chart.pdf" target="_blank">Here.</a></p>
 
 
 
