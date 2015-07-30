@@ -1,6 +1,6 @@
 <?php
 include('./phpgraphlib.php');
-$graph = new PHPGraphLib(500, 350);
+$graph = new PHPGraphLib(1000, 350);
 
 
 //$data = array(12124, 5535, 43373, 22223, 90432, 23332, 15544, 24523, 32778, 
