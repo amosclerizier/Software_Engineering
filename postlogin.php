@@ -32,7 +32,7 @@
 				</div>
 <!--	<div id="curve_chart" style="width: 900px; height: 500px"></div> -->
 <div id="graph"><img src="stepsgraph.php" /></div>
-<p style="color:white">Download a chart that will help you track your progress<a href="steps_chart.pdf" target="_blank">Here.</a></p>
+<p style="color:white">Download a chart that will help you track your progress<a href="steps_chart.pdf" target="_blank" download>Here.</a></p>
 
 
 
