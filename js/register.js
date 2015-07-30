@@ -40,7 +40,7 @@ $(document).ready(function() {
 		}
 		else $('#password2 .message').empty();
 		
-		alert(error);
+		//alert(error);
 		
 		if (error) e.preventDefault();
 		else {
