@@ -102,6 +102,17 @@ margin-top: 100px;
 width: 400px;
 display: inline;
 }
+
+.statement p {text-align:center;}
+.statement h1,h2,h3{text-align:center;}
+#statement {
+color: white;
+position: center;
+width:800px;
+padding-top:150px;
+padding-left:20%; 
+}
+
 .login .ui-dialog-buttonpane, .login button {
 width: 100%;
 }

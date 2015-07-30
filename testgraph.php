@@ -45,7 +45,7 @@ $jsonTable = json_encode($table);
 //header('Content-type: application/json');
 
 // return the JSON data
-echo $jsonTable;
+//echo $jsonTable;
 
 ?>
 
@@ -62,11 +62,21 @@ echo $jsonTable;
             }]
           }"></script>
 
+
     <script type="text/javascript">
+
+
       google.setOnLoadCallback(drawChart);
 
       function drawChart() {
-        var data = google.visualization.arrayToDataTable(jsonTable);//[
+
+var jsonData = $.ajax({
+      url: "getData.php",
+      dataType:"json",
+      async: false
+    }).responseText;
+
+        var data = google.visualization.arrayToDataTable(jsonData);//[
          // ['Year', 'Steps', 'Recommended Steps'],
          // ['2004',  1000,      400],
          // ['2005',  1170,      460],
